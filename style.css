@@ -95,6 +95,7 @@ body {
   padding: 20px;
   box-shadow: 0 0 20px rgba(255, 255, 255, 0.1); /* white shadow */
   transition: all 0.3s ease;
+  text-decoration: none;
 }
 
 .portfolio-item:hover {
@@ -105,6 +106,7 @@ body {
 .portfolio-item img {
   max-width: 100%;
   border-radius: 10px;
+  text-decoration: none;
 }
 
 .footer {
@@ -116,4 +118,12 @@ body {
 
 .footer p {
   font-size: 14px;
+}
+.portfolio-item a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.portfolio-item a:visited {
+  color: white; /* Color remains blue even after the link is visited */
 }

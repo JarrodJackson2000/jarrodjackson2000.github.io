@@ -1,0 +1,126 @@
+/* Styles for body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+/* Styles for titles */
+.titles {
+  text-align: center;
+  padding: 20px;
+  background-color: #ffffff;
+  border-bottom: 2px solid #ccc;
+}
+
+.heading1 {
+  font-size: 36px;
+  color: #222222;
+}
+
+.heading2 {
+  font-size: 24px;
+  color: #444444;
+}
+
+/* Styles for body content */
+.body1 {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.body1 p {
+  line-height: 1.6;
+  color: #333333;
+}
+
+/* Styles for buttons */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333333;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #222222;
+}
+
+/* Styles for dropdown */
+.dropdown {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+/* Styles for dropdown select */
+.dropdown select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #999999;
+  border-radius: 5px;
+  background-color: #f5f5f5;
+  font-size: 16px;
+  color: #333333;
+}
+.display-box {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+<style>
+/* Styles for display box */
+.display-box {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px; /* Adjust width as needed */
+  height: 150px; /* Adjust height as needed */
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Styles for display box */
+.display-box {
+  position: fixed;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px; /* Adjust width as needed */
+  height: 300px; /* Adjust height as needed */
+  padding: 20px;
+  background-color: #dfdddde9;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Styles for display text */
+.display-text {
+  font-size: 24px;
+  color: #333333;
+}
+
+.result-text {
+  border-radius: 4px;
+  text-align: center;
+}

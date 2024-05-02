@@ -1,0 +1,50 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>devsInc Diceroller</title>
+    <link rel="stylesheet" href="exercise_8.css" />
+    <script src="exercise_8.js"></script>
+  </head>
+  <body>
+    <div class="titles">
+      <h1 class="heading1">devsInc Diceroller</h1>
+      <br />
+      <h4>
+        This is a new heading I made on a new branch, I merged this branch with
+        this new change after completing the exercise because I forgot to make
+        new branches at the start. Sorry!
+      </h4>
+      <h2 class="heading2">Welcome to devsInc's Tabletop Diceroller</h2>
+    </div>
+    <div class="body1">
+      <p>
+        Below we have provided you with 2 different sets of dice to choose from.
+      </p>
+      <p>
+        The first is a 6 sided dice, the second is a 10 sided dice. To begin,
+        select which dice you would like to roll by using the dropdown selector
+        below.
+      </p>
+      <p>
+        All you need to do now is click the "Roll Now" button and your result
+        will be displayed on the screen. Enjoy!
+      </p>
+    </div>
+    <div class="dropdown">
+      <label for="dice_selector">Select Dice</label>
+      <select id="dice_selector">
+        <option type="Number" value="6">6 Sided</option>
+        <option type="Number" value="10">10 Sided</option>
+      </select>
+    </div>
+    <div class="display-box" id="displayBox">
+      <p class="display-text" id="displayText"></p>
+    </div>
+    <div>
+      <!-- Button to execute JavaScript function -->
+      <button onclick="rollDice()">Roll Now</button>
+      <p class="result-text">Result:</p>
+    </div>
+  </body>
+</html>
