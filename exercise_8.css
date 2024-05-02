@@ -110,3 +110,8 @@ body {
   border-radius: 4px;
   text-align: center;
 }
+
+/* Additional style for positioning the box below the dropdown */
+.dropdown + .display-box {
+  top: calc(70% + 5px); /* Adjust the spacing as needed */
+}
